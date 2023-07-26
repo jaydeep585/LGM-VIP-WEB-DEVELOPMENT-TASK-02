@@ -1,0 +1,81 @@
+body {
+  background-image: linear-gradient(to bottom, #559275, #4e7a7e);
+  height: 100vh;
+  width: auto;
+}
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-right: auto;
+}
+
+.button {
+  background-color: #fff;
+  color: #818181;
+  border: none;
+  padding: 5px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+}
+.button:hover{
+  transform: scale(1.05);
+}
+.space{
+  margin-right: 10px;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  font-size: 1.5rem;
+}
+
+.user-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.user-card {
+  border: 1px solid #ffffff;
+  padding: 1rem;
+  border-radius: 4px;
+  text-align: center;
+  transition: all 0.25s ease-in-out;
+}
+
+.user-card:hover{
+  transform: scale(1.02);
+}
+.user-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+
+.user-name {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.user-email {
+  color: #ffffff;
+}
+h1{
+  text-align: center;
+}
